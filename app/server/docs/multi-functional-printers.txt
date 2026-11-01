@@ -1,0 +1,413 @@
+Xerox Multifunction Printers
+                 User Guide
+                    September 2020
+                 Xerox Multi-Function Printers: User Guide
+TABLE OF CONTENTS
+
+Getting Started …………………………………………….……………………………………………………………………….…… 3
+     Touchscreen ……………………………….…………..…………………………………...……………………………….………… 3
+     Secure Entry/ Secure Print Release .………………..…………………………………………….…….………… 5
+
+Using the Device …….……………………………………..……………………………...……………………………….………… 6
+     Home Screen ………………………………………………..……………………………...……………………………….………… 7
+
+Printing …………………………………………………………………………………………………………………………………….…….…. 8
+     One-Sided Printing …………………………………………………………….……………………………………….………… 9
+
+Scanning to your email ……………………………………………………………………………………….….………… 10
+Scanning to your home folder (One Drive) ……………………….…………….….………… 11
+Scanning to your network folder ……………………………………….…………………….….………… 12
+Copy & Fax………..……………….…………………………………………………………………………………………….…………… 13
+Returning to Print/ Scan Screen …………….……………………………………………………...……..… 18
+
+Logging Out ……………………………………………….……………………………………………………………………...……..… 19
+
+
+
+
+                                                                               2
+                         Xerox Multi-Function Printers: User Guide
+Getting Started
+Touchscreen
+Each Xerox printer is controlled by a touchscreen on the front of the device. Depending on the size of your
+printer, you’ll either have a large or small touchscreen.
+
+
+Large Touchscreen
+
+
+
+
+   1) Main Screen. This touch-sensitive screen is where you will find the icons for all the device functions, as
+      well as the documents in your print queue.
+
+   2) Home Button. Pressing this button will return you to the home screen described in this manual, which
+      contains all your functional icons.
+
+   3) Power Button. If the device is asleep, this button will be glowing. Press it to wake up the device. This is
+      also where you can restart the device.
+
+
+
+
+                                                                                                                    3
+                        Xerox Multi-Function Printers: User Guide
+Small Touchscreen
+
+
+
+
+  1) Main Screen. This touch-sensitive screen is where you will find the icons for all the device functions, as
+     well as the documents in your print queue.
+
+  2) Home Button. Pressing this button will return you to the home screen described in this manual, which
+     contains all your functional icons.
+
+  3) Power Button. If the device is asleep, this button will be glowing. Press it to wake up the device. This is
+     also where you can restart the device.
+
+
+
+
+                                                                                                                   4
+                         Xerox Multi-Function Printers: User Guide
+
+Secure Entry/ Secure Print Release
+In an effort to increase security and further comply with HIPAA/ FERPA regulations, the University of Toledo will
+use secure entry and secure print release on all print devices. This means in order to use the device, you will
+need to log on with your Rocket card or UTAD username & password.
+
+What is “Secure Print Release”?
+
+When you send a document to the printer called “FollowMe”, it gets stored in a virtual queue on the server until
+you enter your credentials to “release” it at the device of your choice.
+
+
+
+
+This means that for security, your document will not be released to print until you’ve logged into your chosen
+device. You will also need to log in for any other device functions, such as faxing and scanning.
+
+
+
+
+                                                                                                                    5
+                         Xerox Multi-Function Printers: User Guide
+
+
+Using the Device
+Step 1: Either swipe your Rocket card to login, OR on the touchscreen, tap on the keyboard icon in the upper
+right-hand corner.
+
+
+
+
+Step 2: Enter your Network UTAD Username and tap OK, then your network Password, and tap OK.
+
+
+
+
+This provides access to all functions of the device, including releasing your document(s) to print.
+
+
+
+
+                                                                                                               6
+                        Xerox Multi-Function Printers: User Guide
+
+Home Screen
+
+After you’ve logged in, the touchscreen will display your “Print Release Screen” if you have jobs in the print
+queue (see Printing section below) If you have not printed, you will see the “Home Screen”. The Home Screen
+has icons that allow you to perform all the functions of the device.
+
+
+
+
+                            Note: Depending on the device, your home screen layout may vary.
+
+               Hitting the home button or back arrow IN THE TOP LEFT at any point will bring you back to the
+               home screen.
+
+
+
+
+                                                                                                                 7
+                         Xerox Multi-Function Printers: User Guide
+Printing
+Step 1: To send a document for printing, select “FollowMe” printer:
+
+
+
+
+                                                Follow Me on print-mc
+
+
+
+
+Step 2: Walk to the device you’d like to print from. On the touchscreen, log in per the instructions above.
+
+Step 3: As soon as you log in, you will be immediately presented with a list of print jobs you have waiting. Select
+the document and tap “Print”. Or you can check “Select all jobs” to release all jobs at once.
+
+
+
+
+If you change your mind about printing, you can tap on the trash can (next to the “Print” button) after selecting
+your document to remove it from the print queue.
+
+
+        Documents will remain in your queue for 2 hours. After this time, they will be deleted from the queue.
+
+
+
+
+                                                                                                                      8
+                        Xerox Multi-Function Printers: User Guide
+
+One-Sided Printing
+By default, your documents will print on both sides of the paper. However, you can change the settings to print
+one sided.
+
+Step 1: Go to “File” then “Print…” in whatever program you are printing your document from (Word, Excel,
+Adobe PDF viewer, etc).
+
+Step 2: Click on “Properties”. This will open the Xerox “Print Properties” window. Note: Depending on what
+program you’re using, this may be labeled “Printer Properties” or “Print Options”.
+
+Step 3: Go to the “2-Sided Printing” option and select “1-Sided Print” from the drop down menu. Click “OK”.
+
+
+
+
+                                                                                                                  9
+                         Xerox Multi-Function Printers: User Guide
+Scanning
+You have 2 or 3 options for scanning: Scan to your email, Scan to your OneDrive, and if available, Scan to your
+department folder (Z Drive).
+
+
+
+Scanning to Email
+
+To scan a document to your email, log into the device following the instructions above to begin.
+
+Step 1: From the home screen, select the “Scan” icon:
+
+
+
+
+Step 2: Select “Scan to My Email”
+
+Notice your email address appears in the “TO” field. If you do not need to change the default options (Color
+PDF), you can press the “START” button.
+
+
+
+
+To change the default settings, press the “Change Settings” button.
+
+
+
+
+When you have made your selections, Press “START”.
+
+
+
+                                                                                                                  10
+                        Xerox Multi-Function Printers: User Guide
+
+Scanning to OneDrive
+To scan a document to your OneDrive folder, log into the device following the instructions above to begin.
+
+Step 1: From the home screen, select the “Scan” icon:
+
+
+
+
+Step 2: Select “Scan to OneDrive”
+
+Notice your home directory appears in the “PATH” field. If you do not need to change the default options (Color
+PDF), you can press the “START” button.
+
+
+
+
+To change the default settings, press the “Change Settings” button.
+
+
+
+
+When you have made your selections, Press “START”.
+
+
+
+
+                                                                                                                  11
+                         Xerox Multi-Function Printers: User Guide
+Scanning to your department folder (Z drive)
+
+If your department has a shared folder, you can scan to it by logging into the device following the instructions
+above to begin.
+
+Step 1: From the home screen, select the “Scan” icon:
+
+
+
+
+Step 2: Select the folder you would like to scan to. If you do not need to change the default options (Color PDF),
+you can press the “START” button.
+
+
+
+
+To change the default settings, press the “Change Settings” button.
+
+
+
+
+When you have made your selections, Press “START”.
+
+
+
+
+                                                                                                                     12
+                        Xerox Multi-Function Printers: User Guide
+Copy & Fax
+To copy once you have logged onto the device, select the “Access Device” button from the main screen.
+
+
+
+
+Then you will see the copier’s main screen:
+
+
+
+
+Touch the “Copy” button to make copies. You will see the following screen. Scroll down for all copy options,
+including Color (if applicable), double-sided, reduce/ enlarge, and quality adjustments.
+
+
+
+
+                                                                                                               13
+                         Xerox Multi-Function Printers: User Guide
+Faxing
+Note: Your ComDoc device must be enabled for faxing.
+
+To fax a document, log into the device per the instructions above, then select the “Access Device” button from
+the main screen.
+
+
+
+
+Then you will see the copier’s main screen:
+
+
+
+
+From the Copier’s Main screen, select the “RighFax” icon.
+At the logon screen, press Cancel to log you in as Guest (Log in as the Xerox Device itself)
+
+
+
+
+                                                                                                                 14
+                         Xerox Multi-Function Printers: User Guide
+
+Select the Fax number box and enter in the 10-digit fax number you are sending to, put your documents either
+in the Automatic Document Feeder (ADF) or lift up the lid and place the page on the glass and press Start.
+
+
+
+Please Note: The ADF will only do single sided processing in the Right Fax app. If your document is double sided,
+please lift up the lid and use the glass to scan each individual page.
+
+
+
+
+For more options before sending your fax, press the More button.
+
+
+
+
+                                                                                                                    15
+                         Xerox Multi-Function Printers: User Guide
+Additional Options
+
+Select the Fax number box and enter in the 10-digit fax number you are sending to. (Email Address option, if
+presented, is not available at this time).
+
+Place documents in the Automatic Document Feeder (ADF) or lift the lid and place document on the glass.
+
+At any point after entering your first fax number, you may press Start to begin faxing your document.
+
+(Optional) You may enter Name and/or Company Name by selecting the text box and entering the information.
+
+
+
+
+If the information you just entered will be a frequent contact that you will send future faxes to, you may select
+the Add to phonebook checkbox.
+
+
+
+
+                                                                                                                    16
+                         Xerox Multi-Function Printers: User Guide
+If you have multiple fax destinations that you need to send the same fax to, after entering in the fax number,
+name and/company, press Add Recipient. This will add the information you added into a recipient list and enter
+in your next fax number.
+
+If you have contacts that are already in your phone book, press the phone book button and select one or more
+recipients that you would like to fax to and press OK.
+
+
+
+
+If you would like to either remove the system generated cover page or add notes to the cover page, press the
+Fax Options button.
+
+If you would like to add notes that will appear on the cover sheet, tap in the Notes box and begin typing.
+
+To remove the system generated cover sheet from being sent with your fax, uncheck Include cover sheet.
+
+
+
+
+                                                                                                                 17
+                         Xerox Multi-Function Printers: User Guide
+
+
+
+If you would like to fax a 2-sided document, tap the Job Options select Two_Sided or Second_Side_Rotation
+
+
+
+
+When you are ready to send your fax, press the Start button.
+
+Note: You will not hear any dial or fax tone while your fax is being sent. A confirmation page will be printed on
+the Xerox printer after the fax has been successfully or unsuccessfully sent to its destination.
+
+
+
+
+                                                                                                                    18
+                      Xerox Multi-Function Printers: User Guide
+Returning to Scan/ Print Release Screen
+To return to your print release / scan screen, press the “Papercut” ICON.
+
+
+
+
+                                                                            19
+                        Xerox Multi-Function Printers: User Guide
+Logging Out
+When you’re finished, tap on your name in the upper right-hand corner and tap “Log out”:
+
+
+
+
+                                                                                           20
+

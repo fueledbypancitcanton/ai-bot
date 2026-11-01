@@ -1,0 +1,477 @@
+Xerox Smart Start
+               ®
+Customer Tip
+© 2026 Xerox Corporation. All rights reserved. Xerox®, ConnectKey® and AltaLink® are trademarks
+of Xerox Corporation in the United States and/or other countries. BR34791
+Other company trademarks are also acknowledged.
+dc22cc0506 Document Version: 4.1 (April 2026)
+Preface
+
+
+Xerox® Smart Start is an easy-to-use Windows installer that helps administrators and users select
+and install the best print software for their printer. Xerox® Smart Start supports Microsoft’s IPP,
+Type 3, and Type 4 print systems. It can create IPP printers, install the Xerox V3 Global Print
+driver, the V4 product specific driver, and supporting companion applications such as the Xerox ®
+Desktop Print Experience and the Xerox® Print and Scan Experience.
+Starting in version 2.5.7.0 IPP will be the default print system in Xerox ® Smart Start
+
+
+Xerox® Smart Start can do the following:
+• Find network printers.
+• Make recommendations on which driver provides the best experience.
+• Allow administrators to pick which printer(s) and print drivers they want to install.
+• Upgrades existing printers if new drivers are available.
+• Installs TWAIN and WIA scan drivers.
+
+
+Supported Windows Operating Systems:
+• Windows 11
+• Windows 10
+
+
+Smart Start ARM64 Support:
+• Only Quick Installs are supported.
+• IPP is the only supported print system.
+• Smart Start does not support installing the following software on ARM64 OSes.
+         o   Xerox V3/V4 print drivers
+         o   Xerox® Desktop Print Experience
+         o   Xerox® Print and Scan Experience
+         o   Scan drivers
+
+
+
+
+Xerox® Smart Start − Customer Tip                                                                     i
+Contents
+
+
+Preface ................................................................................................................................................i
+
+Xerox® Smart Start Software ............................................................................................................1
+
+Installing a Printer with Xerox® Smart Start ...................................................................................3
+Install ...................................................................................................................................................3
+Quick Install .........................................................................................................................................3
+Advanced Install ..................................................................................................................................3
+Offline Printer Installation ....................................................................................................................5
+Install Printers with Xerox® Smart Start and the Xerox® Quick Link App ............................................6
+
+Upgrading & Updating Printers with Xerox® Smart Start ..............................................................7
+Upgrading the Print Driver with Xerox® Smart Start ...........................................................................7
+Updating Existing USB Printer ............................................................................................................7
+
+Repairing IPP/UP Queues’ PSA association with Xerox® Smart Start ........................................9
+
+Troubleshooting ..............................................................................................................................10
+
+
+
+
+Xerox® Smart Start − Customer Tip                                                                                                                        ii
+Xerox® Smart Start Software
+
+
+Where can I find Xerox® Smart Start?
+Xerox® Smart Start is a stand-alone installer. Download it from www.support.xerox.com. Follow the
+procedure below to access the software.
+1. Under Browse by Product Type, select Printers.
+2. Select desired Product Family (example: AltaLink®)
+3. Select the desired Model (example: Xerox AltaLink® C8030/ C8035/ C8045/ C8055/ C8070
+   Color Multifunction Printer)
+4. Select Drivers & Downloads
+5. Under Xerox Smart Start – Driver Installer, agree to the Terms and Conditions
+6. Select Download
+
+
+How Does Xerox® Smart Start Software Work?
+
+PRINTER DISCOVERY
+
+Xerox® Smart Start scans the local network for supported printers using Internet Printing Protocol
+(IPP). The scope of the search is based on the IP address subnets of existing printers. Users can
+also search for specific printers by selecting “Don’t See Your Printer?”, which allows them to
+enter a hostname or IP address. When searching for a specific printer this way, Smart Start uses
+both IPP and SNMP protocols.
+
+
+INSTALLATION
+
+Xerox® Smart Start can be used by both standard users and administrators to install printers and
+the Xerox® Print and Scan Experience. Installations that need new print drivers, scan drivers, or the
+Xerox® Desktop Print Experience require elevation to an administrator.
+    •    Administrators can use Smart Start to install printers even if print or scan drivers are not
+         already installed.
+    •    Standard users can install printers via Smart Start without elevation, provided the required
+         Xerox drivers were previously installed by an administrator or are included as 'inbox'
+         drivers.
+         Examples:
+             o    When installing the Xerox® AltaLink C8130, Quick Install will not display the shield
+                  icon. A standard user can create an IPP queue using the inbox Microsoft IPP
+                  Class Driver without elevated rights.
+             o    When the Xerox® AltaLink C8130 V4 PCL6 print driver is already installed on a
+                  client, Advanced Install will not display a shield icon, allowing a standard user to
+                  create a Type 4 AltaLink® C8130 queue without requiring elevated rights.
+             o    When the Xerox® Global Print Driver (PCL6 or PS) is already installed on a client,
+                  Advanced Install will not display a shield icon, allowing a standard user to create a
+                  Type 3 print queue without requiring elevated rights.
+
+
+
+Xerox® Smart Start − Customer Tip                                                                     1
+    •    Standard users can use Smart Start to install printers, upgrade existing print drivers, and
+         install scan drivers without pre-installed drivers if Smart Start is running with elevated
+         rights.
+When Xerox® Smart Start needs to elevate to perform an installation, it will display a shield icon on
+the Quick Install/Install button.
+
+
+
+
+When the user selects an install button with a shield icon, a Windows User Account Control (UAC)
+prompt will appear.
+To continue, the user must select Yes and supply
+administrator credentials. When the user has supplied
+administrator credentials, Xerox® Smart Start will close
+and re-open with elevated privileges.
+
+What happens if I do not have administrator
+credentials?
+If Smart Start displays a UAC prompt and the user does
+not have administrator credentials, then the user will not
+be able to install a printer. Select No to close Smart Start. Please contact an administrator to install
+a compatible Xerox print driver on your PC.
+
+
+The user can choose between two different kinds of installations.
+• Quick Install – Automatically installs drivers based on the printer model.
+     - Quick Install will create an IPP printer and install the Xerox® Print and Scan Experience if
+       the printer supports IPP.
+     - If the printer does not support IPP, Quick Install will create a printer using the Xerox ® Global
+       Print Driver.
+     - Quick Install does not install scan drivers.
+• Advanced Install – Allows the user to choose which print system, PDL, scan driver, and decide
+  if they want to install Xerox® Print and Scan Experience. Xerox® Smart Start will recommend
+  which options provide the best print experience.
+     - If the chosen printer does not support IPP, Smart Start will not present it as an option under
+       Print System.
+
+
+
+
+Xerox® Smart Start − Customer Tip                                                                      2
+Installing a Printer with Xerox® Smart Start
+
+
+Install
+1. Launch XeroxSmartStart.exe.
+2. Agree to the EULA.
+3. Xerox® Smart Start will scan for printers.
+4. Select the printer you want to install and choose either Quick Install or Advanced Install.
+5. If Xerox® Smart Start did not find the printer you want to install, select Don’t See Your Printer.
+    • Enter the printer’s hostname or IP address and select Continue. If Xerox® Smart Start
+      detects your printer, you will then have the option to select Quick Install or Advanced install.
+6. When the installation finishes, Xerox® Smart Start will display a confirmation screen. You can
+   Install Another Device or exit by selecting Done. There is also the option to print a test page
+   and register the device.
+
+
+Quick Install
+
+If you do not see a      shield icon next to Quick Install, you do not need admin rights to install the
+printer.
+    •     Select Quick Install and you are done.
+If you do see a     shield icon next to Quick Install, then Smart Start needs elevated rights to install
+a print driver.
+    •     Select Quick Install.
+    •     Windows will display a UAC prompt, select Yes to elevate.
+    •     Enter administrator credentials to continue.
+    •     Smart Start will re-open on the Ready to Install Screen for the selected printer, with
+          administrator permission.
+    •     Select Quick Install to install the printer.
+
+
+Advanced Install
+
+If you do not see a      shield icon next to Install, you do not need admin rights to install the printer.
+    •     Select Advanced Install, select the options you want, then select Install to install the
+          printer.
+If you do see a    shield icon next to Install, then Smart Start needs elevated rights to install a print
+driver, a scan driver, or an app.
+    •     Select Advanced Install.
+    •     Windows will display a UAC prompt, select Yes to elevate.
+    •     Enter administrator credentials to continue.
+    •     Smart Start will re-open with administrator permission.
+
+
+
+Xerox® Smart Start − Customer Tip                                                                            3
+    •    Select Advanced Install, select the options you want, then select Install to install the
+         printer.
+
+
+Advanced Install Options
+On the Advanced Install screen, a set of install options is presented. There is also an “…” button
+next to each option. Selecting the “…” displays recommendations on what value to select for each
+option.
+
+
+Print Queue Name
+For Type 3 and Type 4 print systems, a user can modify the print queue name for the specific
+printer. The user cannot change the print queue name for the IPP print system.
+
+
+Print System
+A user can choose between Microsoft’s IPP, Type 3, and
+Type 4 print systems.
+• If you select IPP, Smart Start will create an IPP printer.
+  IPP is an HTTP printing solution that does not require
+  third-party print drivers.
+• If you select Type 4, Smart Start will create a V4 printer
+  with a product specific driver.
+• If you select Type 3, Smart Start will create a V3 printer
+  with the Xerox® Global Print Driver.
+• When selecting More Options, for an already installed
+  printer an additional option ‘Do Not Install New Queue’ is
+  available. This allows a user to install other software (i.e.
+  TWAIN drivers) without creating a new print queue.
+
+
+Driver PDL
+For Type 3 and Type 4 print systems, a user has the option of selecting either PostScript, PCL6,
+and for printers that support it, PCLm. The user cannot change PDL for the IPP print system.
+
+
+Xerox Print and Scan Experience
+You may be given the option to install the Xerox® Print and Scan Experience. If this option is
+presented, it is defaulted to Install. To block the installation, you must select Do Not Install.
+Notes:
+  • Installation of the Xerox® Print and Scan Experience is supported on:
+    – Windows 11 21H2 22000 or higher.
+     – Windows 10 x64 21H2 19044.1806 or higher.
+  • Installation of the Xerox® Print and Scan Experience is not supported on 32-bit versions of
+    Windows 10.
+  • Installation of the Xerox® Print and Scan Experience is not supported on ARM64 versions of
+    Windows 10 & 11.
+
+
+
+
+Xerox® Smart Start − Customer Tip                                                                    4
+TWAIN/WIA Scan Drivers
+Optionally, a user can choose to install scan drivers. By default, Xerox® Smart Start does not install
+scan drivers.
+
+
+Offline Printer Installation
+Xerox® Smart Start can create printers even if the device is offline. During the install process enter
+device’s hostname or IP address, once the device comes back online printing will be available.
+Note: Xerox® Smart Start will not install scan drivers
+for offline printers.
+
+
+1. Run Xerox® Smart Start and let it finish
+   discovering printers.
+2. Select Don’t See Your Printer.
+3. Enter the printer’s hostname or IP address and
+   select Advanced Search.
+4. If Xerox® Smart Start cannot find the printer, it will
+   prompt you to install an offline printer.
+5. Select Install an Offline Printer.
+6. Select a printer model.
+
+
+
+
+7. Smart Start will open the Advanced Install screen.
+8. If there is no     shield icon next to Install, select the options you want then select Install.
+    If a    shield icon is next to Install, then elevated rights are needed to complete the print driver
+    installation. In this case you will need to follow the steps below to install the printer.
+
+    • Select Install.
+    • Windows will prompt you to enter administrator credentials in a UAC dialog.
+    • Enter administrator credentials then select Yes to elevate.
+    • Smart Start will return to Advanced Install screen.
+   • Select the options you want then select Install.
+9. Smart Start will install the printer.
+
+
+
+
+Xerox® Smart Start − Customer Tip                                                                      5
+Install Printers with Xerox® Smart Start and the Xerox® Quick Link App
+With the Xerox® Quick Link App, an administrator can download a custom Xerox® Smart Start
+installer that already has your printer’s network address. This installer skips printer
+discovery and installs the printer immediately.
+The Xerox® Quick Link App is supported by Xerox® ConnectKey® technology
+enabled devices. Before you can use Xerox® Quick Link you will need to add it to
+your printer. This is done in the Xerox® App Gallery found on your printer’s home screen. Once
+Xerox® Quick Link is installed, follow these instructions to start printing.
+1. From the home screen select the Xerox® Quick Link app on your printer.
+2. Xerox® Quick Link App will ask if you are connecting to a computer or mobile device.
+   Select Computer.
+3. In the next screen, enter your email address and select Send.
+4. Your printer will send you an email containing a Xerox® Smart Start download link.
+5. Open the email and select the Microsoft Windows link.
+6. This will launch your default web browser and download a custom Xerox ® Smart Start installer.
+7. Run the installer.
+8. Agree to the EULA.
+9. Xerox® Smart Start will present you with a Ready to Install screen. Select Quick Install or
+   Advanced Install to begin.
+    Note: If you see a       shield icon next to Quick Install or Install (within the Advanced dialog),
+    then Smart Start needs administrator privileges to install a print driver. Selecting Quick Install
+    or Install will present the user with a UAC prompt. The user must enter administrator
+    credentials to relaunch Smart Start with administrator privileges. Once Xerox® Smart Start
+    relaunches select the desired Install method (Quick or Advanced.)
+10. After the installation is finished, the Install Complete confirmation screen is displayed.
+
+
+
+
+Xerox® Smart Start − Customer Tip                                                                         6
+Upgrading & Updating Printers with Xerox® Smart Start
+
+
+Upgrading the Print Driver with Xerox® Smart Start
+When Xerox® Smart Start scans for printers it checks to see if there are print driver updates
+available for existing printers. If Xerox® Smart Start finds an update, it will present the user with an
+Update button.
+
+.
+Note: If a shield icon appears next to Update, then Smart Start requires administrator privileges to
+update a print driver. Selecting Update will present the user with a UAC prompt. The user must
+enter administrator credentials to relaunch Smart Start with administrator privileges. From there a
+user can continue with the update.
+To upgrade to the recommended option, select the Update
+button. To see upgrade options, select the “i” button.
+• If your printer is using an out-of-date Type 3 print driver
+  and your operating system supports Type 4 print drivers,
+  then Xerox® Smart Start presents you with the following
+  window after selecting Update.
+• If you choose Recommended Update, then Xerox Smart
+  Start will delete the old Type 3 printer and replace it with a
+  new printer using the Type 4 print driver.
+• If you choose Recommended Update and checkmark Keep
+  Old Queues, then Xerox Smart Start will keep the old Type
+  3 printer and create a new printer with the Type 4 driver.
+  You will end up with two printers, one Type 3 the other
+  Type 4.
+• If you choose Basic Update, then Xerox Smart Start will
+  upgrade your printer to the latest Type 3 Xerox® Global
+  Print Driver®.
+
+Note: Whichever option you choose Xerox® Smart Start will not delete the old V3 print driver.
+
+
+
+
+Updating Existing USB Printer
+Xerox® Smart Start cannot create USB printers in Windows. To install a USB printer, connect the
+Xerox printer to the PC with a USB cable. Windows will automatically install the print driver and
+create a USB print queue.
+Xerox® Smart Start can update existing USB printers. When a USB printer is detected, it will
+appear at the top of the printer list and, if an update is available, the printer can be updated with the
+following options:
+
+
+
+
+Xerox® Smart Start − Customer Tip                                                                          7
+    •    Update – This will install the Xerox® Desktop Print Experience and/or Xerox® Print and
+         Scan Experience app.
+            o If Smart Start needs admin rights to update your USB printer, it will display a shield
+                icon next to Update.
+
+
+
+
+    •    More Options – Allows a user or admin to create additional USB print queues using the
+         Microsoft IPP Class Driver, a Xerox Type 3 print driver, or a Xerox Type 4 print driver. The
+         user or admin can also install the Xerox® Print and Scan Experience app if it is not already
+         installed.
+             o If administrator privileges are required to install a print driver or app, Smart Start
+                  will display a shield icon next to Install.
+
+
+
+
+Xerox® Smart Start − Customer Tip                                                                  8
+Repairing IPP/UP Queues’ PSA association with
+Xerox® Smart Start
+
+
+
+One component of the Xerox® Print and Scan Experience (XPSE) is the Printer Support App (PSA)
+extension INF, which associates Xerox print queues with the XPSE. The extension INF is normally
+installed automatically through Windows Update when an IPP or Universal Print (UP) printer is
+created.
+If the update is blocked or fails to download, the print queue will not associate with the XPSE, and
+users will see the standard Microsoft driver interface when printing. Xerox® Smart Start can repair
+this issue by downloading and installing the PSA extension INF when the 'Repair' button appears
+next to the printer icon.
+
+
+
+
+  Note: If a shield icon appears next to Repair, then administrator privileges are required.
+  Selecting Repair will present the user with a UAC prompt. Administrator credentials are
+  required to relaunch Smart Start with elevated privileges and to continue.
+
+
+
+When you select Repair, Smart Start downloads and installs the PSA extension INF. Smart Start
+displays an “Associating Print Queue with App” message.
+
+
+
+
+Xerox® Smart Start − Customer Tip                                                                  9
+Troubleshooting
+
+
+XEROX® SMART START DOES NOT DISCOVER MY PRINTER
+
+  • Xerox® Smart Start uses Internet Printing Protocol (IPP) to discover printers. Check network
+    settings on the device’s web page and ensure IPP is enabled.
+  • Xerox® Smart Start uses both IPP and SNMP protocols when searching for a specific
+    hostname or IP address. Ensure both protocols are enabled and the device uses the default
+    SNMP read-only community name string. Select Don’t See Your Printer and enter the
+    printer’s hostname or IP address to find and install it.
+     – If neither IPP or SNMP are enabled in your device’s network settings, Smart Start will not
+       be able find the printer, even with Advanced search.
+  • The printer may be on a different subnet than the PC running Xerox ® Smart Start. Select Don’t
+    See Your Printer and enter the printer’s hostname or IP address to search for it.
+
+
+XEROX® SMART START FAILS TO DOWNLOAD PRI NT/SCAN DRIVERS
+
+  • Xerox® Smart Start downloads print drivers from the Internet. Check your PC’s proxy settings
+    and ensure you are connected to the Internet.
+
+
+XEROX® SMART START TAKES A LONG TIME TO DISCOVER PRINTERS ON MY NETWORK
+
+  • Xerox® Smart Start uses every printer in Devices and Printers to search for new printers. Try
+    deleting any old unused printers.
+  • Remove any old TCP/IP ports from your PC that are no longer assigned to a printer. To
+    remove unassigned TCP/IP ports follow the procedure below:
+
+  Caution: Please perform a backup for your Print Management settings prior to preforming this
+  procedure.
+
+
+     1. Select Start, Settings
+     2. Open Devices and select Printers & scanners.
+         – Scroll down until you see Related Settings.
+         – Select the Print server properties.
+     3. In Print server properties select the Ports tab.
+     4. Select the Change Port Settings button.
+         – You will be required to elevate to an administrator account.
+     5. Scroll down the list of printer ports and look for any port described as a Standard TCP/IP
+        Port that does not have a printer associated with it.
+     6. Delete any of these ports.
+
+
+
+
+Xerox® Smart Start − Customer Tip                                                                   10
+
